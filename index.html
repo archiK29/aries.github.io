@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Занятие 9, задание 2 (верстка макета)</title>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="img/icons/logo.svg" alt="logo image">
+        </a>
+        <div class="header__inner">
+          <nav class="menu-left">
+            <ul class="menu-left__list">
+              <li class="menu-left__item">
+                <a href="#company__content" class="menu-left__link">
+                  PROGRAM
+                </a>
+              </li>
+              <li class="menu-left__item">
+                <a href="#info__top" class="menu-left__link">
+                  FUNDING
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="menu-right">
+            <ul class="menu-right__list">
+              <li class="menu-right__item">
+                <a class="menu-right__link" href="#latest-portfolios__inner">
+                  JOBS
+                </a>
+              </li>
+              <li class="menu-right__item">
+                <a class="menu-right__link" href="#">
+                  MENU
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <img class="header__img" src="img/icons/menu-header.svg" alt="menu icon">
+      </div>
+
+    </div>
+  </header>
+
+
+
+  <main class="main">
+    <section class="top">
+      <img class="top__bg" src="img/bg/top-bg.png" alt="background image">
+      <div class="container container--top">
+        <h1 class="top__title">
+          we are Here For Your
+          <span>Artificial Intelligence</span>
+          Startup.
+        </h1>
+        <a class="top__arrow-down" href="#footer">
+          <img src="img/top/arrow-down.svg" alt="arrow-down icon">
+        </a>
+
+        <img class="top__img" src="img/top/spiral-top.png" alt="spiral image">
+      </div>
+    </section>
+
+    <section class="company">
+      <div class="container">
+        <div class="company__inner">
+          <div class="company__images">
+            <img class="company__img" src="img/company/company-big.jpg" alt="company big image">
+            <img class="company__img-small" src="img/company/company-small.jpg" alt="company small image">
+          </div>
+
+          <div class="company__content" id="company__content">
+            <h2 class="title">
+              building faster, <br> smarter,together.
+            </h2>
+            <p>ARIES is a part of PIXIRHY, a global venture capital firm providing multi stage investment to develop and
+              scale our founders’ big ideas. SOSV invests in every HAX program startup with follow-on through
+              pre-iPO.
+            </p>
+            <a class="company__link" href="#">
+              View program
+              <img class="company__link-img" src="img/icons/arrow-right.svg" alt="arrow icon">
+            </a>
+          </div>
+        </div>
+      </div>
+      <img class="company__bg" src="img/company/spiral-company.svg" alt="spiral image">
+    </section>
+
+    <section class="info">
+      <div class="container">
+        <div class="info__top" id="info__top">
+          <h2 class="title info-title">We invest $27 Billion <br>
+            per year into AI startups.</h2>
+          <p>
+            They are showing researches and writting regularly about the consequnces happening
+            on AI. Our unique program is designed for startups, combining hands-on help from a deeply experienced
+            product
+            development team and
+            a total investment package of $270,000.
+          </p>
+        </div>
+
+        <div class="info-content info-content_upper">
+          <img class="info-content__img" src="img/info/info-top.png" alt="content image">
+          <div class="info-content__top">
+            <div class="info-content__suptitle">
+              KAWASKI
+            </div>
+            <h3 class="info-content__subtitle">
+              Corporobo Design <br>
+              Interview with Ben Lukas.
+            </h3>
+            <p>
+              We spoke to Robotic and sound designer Ben Lukas Boysen about the evolution of robot soundtracks and
+              some
+              of his top
+              picks.
+            </p>
+            <a class="info-content__link" href="#">
+              View project
+              <img class="info-content__img-link" src="img/icons/arrow-right.svg" alt="arrow icon">
+            </a>
+          </div>
+        </div>
+
+        <div class="info-content info-content_reverse">
+          <div class="info-content__bottom">
+            <div class="info-content__suptitle">
+              ROXERIN
+            </div>
+            <h3 class="info-content__subtitle">
+              Young Minds, Experience <br> hand & Strong Command.
+            </h3>
+            <p>
+              We spoke to Robotic and sound designer Ben Lukas Boysen about the evolution of robot soundtracks and
+              some
+              of his top
+              picks.
+            </p>
+            <a class="info-content__link" href="#">
+              View project
+              <img class="info-content__img-link" src="img/icons/arrow-right.svg" alt="arrow icon">
+            </a>
+          </div>
+          <img class="info-content__img" src="img/info/info-bottom.png" alt="content image">
+        </div>
+      </div>
+
+      <img class="info__bg" src="img/info/spiral-info.svg" alt="spiral image">
+    </section>
+
+    <section class="portfolios">
+      <div class="container">
+        <div class="portfolios__wrapper top-line">
+          <h2 class="title portfolios__title">our Investment Portfolios.</h2>
+          <ul class="portfolios__items">
+            <li class="porfolios__item">
+              <img class="portfolio__img" src="img/icons/atomin.svg" alt="porfolios icon">
+              <a class="portfolios__link" href="#">atomin</a>
+            </li>
+            <li class="porfolios__item">
+              <img class="portfolio__img" src="img/icons/oracle.svg" alt="porfolios icon">
+              <a class="portfolios__link" href="#">oracle</a>
+            </li>
+            <li class="porfolios__item">
+              <img class="portfolio__img" src="img/icons/jarvice.svg" alt="porfolios icon">
+              <a class="portfolios__link" href="#">jarvice</a>
+            </li>
+            <li class="porfolios__item">
+              <img class="portfolio__img" src="img/icons/raxon.svg" alt="porfolios icon">
+              <a class="portfolios__link" href="#">raxon</a>
+            </li>
+            <li class="porfolios__item">
+              <img class="portfolio__img" src="img/icons/tindo.svg" alt="porfolios icon">
+              <a class="portfolios__link" href="#">tindo</a>
+            </li>
+            <li class="porfolios__item">
+              <img class="portfolio__img" src="img/icons/kawaski.svg" alt="porfolios icon">
+              <a class="portfolios__link" href="#">kawaski</a>
+            </li>
+            <li class="porfolios__item">
+              <img class="portfolio__img" src="img/icons/cypher.svg" alt="porfolios icon">
+              <a class="portfolios__link" href="#">cypher</a>
+            </li>
+            <li class="porfolios__item">
+              <img class="portfolio__img" src="img/icons/ordix.svg" alt="porfolios icon">
+              <a class="portfolios__link" href="#">ordix</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="team team_bg">
+      <div class="team__container">
+        <div class="team__wrapper">
+          <ul class="team__items">
+            <li class="team__item">
+              <img class="team__item-img" src="img/team/alba.jpg" alt="person image">
+              <div class="team__item-name">
+                edris alba
+              </div>
+              <div class="team__item-position">
+                Leader
+              </div>
+            </li>
+            <li class="team__item">
+              <img class="team__item-img" src="img/team/rafello.jpg" alt="person image">
+              <div class="team__item-name">
+                mark rafello
+              </div>
+              <div class="team__item-position">
+                Co-Leader
+              </div>
+            </li>
+            <li class="team__item">
+              <img class="team__item-img" src="img/team/rogers.jpg" alt="person image">
+              <div class="team__item-name">
+                chris rogers
+              </div>
+              <div class="team__item-position">
+                lead marketing
+              </div>
+            </li>
+            <li class="team__item">
+              <img class="team__item-img" src="img/team/simioni.jpg" alt="person image">
+              <div class="team__item-name">
+                roberto simioni
+              </div>
+              <div class="team__item-position">
+                lead technician
+              </div>
+            </li>
+          </ul>
+          <div class="team-content">
+            <img class="team-content__img" src="img/team/team-spiral.svg" alt="spiral image">
+            <div class="team-content__descr">
+              <h2 class="title team-content_title">
+                Genius minds behind this program for you
+              </h2>
+              <p>We are a group of engineers, designers and entrepreneurs brought together to support early stage
+                startups working on
+                artificial intelligence.</p>
+              <a class="team-content__link" href="#">
+                view team
+                <img class="team-content__img-link" src="img/icons/arrow-right.svg" alt="arrow icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="latest-portfolios">
+      <div class="container">
+        <div class="latest-portfolios__inner" id="latest-portfolios__inner">
+          <div class="top-line top-line_none"></div>
+          <h2 class="title latest-portfolios__title">
+            <span>latest</span> portfolio jobs.
+          </h2>
+          <div class="latest-portfolios__wrapper">
+            <ul class="latest-portfolios__list">
+              <li class="latest-portfolios__item">
+                <div class="latest-portfolios__company">
+                  KAWASKI
+                </div>
+                <a class="latest-portfolios__link" href="#">
+                  <span>
+                    Sales Intern -
+                    Right Hand to the COO
+                  </span>
+                  <img class="latest-portfolios__link-img" src="img/icons/longer-arrow.svg" alt="arrow-right icon">
+                </a>
+                <div class="latest-portfolios__descr">
+                  Internship - Paris @agronavo - marketing
+                </div>
+              </li>
+              <li class="latest-portfolios__item">
+                <div class="latest-portfolios__company">
+                  CYPHER
+                </div>
+                <a class="latest-portfolios__link" href="#">
+                  <span>
+                    head of growth -
+                    medical device startup
+                  </span>
+                  <img class="latest-portfolios__link-img" src="img/icons/longer-arrow.svg" alt="arrow-right icon">
+                </a>
+                <div class="latest-portfolios__descr">
+                  ful time - remote - business develepoment
+                </div>
+              </li>
+              <li class="latest-portfolios__item">
+                <div class="latest-portfolios__company">
+                  ORDIX
+                </div>
+                <a class="latest-portfolios__link" href="#">
+                  <span>
+                    Software Developer -
+                    Robot Systems
+                  </span>
+                  <img class="latest-portfolios__link-img" src="img/icons/longer-arrow.svg" alt="arrow-right icon">
+                </a>
+                <div class="latest-portfolios__descr">
+                  ful time - remote - Software
+                </div>
+              </li>
+            </ul>
+
+            <div class="job-categories">
+              <h4 class="job-categories__title">
+                job categories
+              </h4>
+              <ul class="job-categories__list">
+                <li class="job-categories__item">
+                  <a class="job-categories__link" href="#">
+                    <span>Business development</span>
+                    <img class="job-categories__link-img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+                  </a>
+                </li>
+                <li class="job-categories__item">
+                  <a class="job-categories__link" href="#">
+                    <span>Data Science</span>
+                    <img class="job-categories__link-img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+                  </a>
+                </li>
+                <li class="job-categories__item">
+                  <a class="job-categories__link" href="#">
+                    <span>Finance</span>
+                    <img class="job-categories__link-img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+                  </a>
+                </li>
+                <li class="job-categories__item">
+                  <a class="job-categories__link" href="#">
+                    <span>Human Resources
+                    </span>
+                    <img class="job-categories__link-img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+                  </a>
+                </li>
+                <li class="job-categories__item">
+                  <a class="job-categories__link" href="#">
+                    <span>Operations</span>
+                    <img class="job-categories__link-img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+                  </a>
+                </li>
+                <li class="job-categories__item">
+                  <a class="job-categories__link" href="#">
+                    <span>Software</span>
+                    <img class="job-categories__link-img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+                  </a>
+                </li>
+                <li class="job-categories__item">
+                  <a class="job-categories__link" href="#">
+                    <span>Marketing</span>
+                    <img class="job-categories__link-img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a class="section-link latest-portfolios__bottom-link" href="#">
+            next jobs
+            <img class="section-link__img link__img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+          </a>
+        </div>
+      </div>
+      <img class="latest-portfolios__bg" src="img/latest-portfolios/spiral-latest-portfolio.svg" alt="spiral image">
+    </section>
+
+    <section class="slider-blog">
+      <div class="container">
+        <div class="top-line"> </div>
+        <h2 class="title slider-blog__title">
+          insight, resources
+          & stories.
+        </h2>
+
+
+      </div>
+      <div class="slider-blog__inner">
+        <div class="slider-blog__item">
+          <div class="slider-blog__image">
+            <img src="img/slider-blog/1.jpg" alt="slider image">
+          </div>
+          <div class="slider-blog__item-descr">
+            <span>10-08-2021</span>
+            <a href="#">VCs And Startups Consider HaaS Model For Consumer Devices.</a>
+          </div>
+
+        </div>
+        <div class="slider-blog__item">
+          <div class="slider-blog__image">
+            <img src="img/slider-blog/2.jpg" alt="slider image">
+          </div>
+          <div class="slider-blog__item-descr">
+            <span>10-08-2021</span>
+            <a href="#">Covid-19 Is Rapidly Accelerating Digital Health Adoption.</a>
+          </div>
+        </div>
+        <div class="slider-blog__item">
+          <div class="slider-blog__image">
+            <img src="img/slider-blog/3.jpg" alt="slider image">
+          </div>
+          <div class="slider-blog__item-descr">
+            <span>10-08-2021</span>
+            <a href="#">Was our 30 Billion Dollar Investement wise on this tech?</a>
+          </div>
+        </div>
+        <div class="slider-blog__item">
+          <div class="slider-blog__image">
+            <img src="img/slider-blog/1.jpg" alt="slider image">
+          </div>
+          <div class="slider-blog__item-descr">
+            <span>10-08-2021</span>
+            <a href="#">VCs And Startups Consider HaaS Model For Consumer Devices.</a>
+          </div>
+
+        </div>
+        <div class="slider-blog__item">
+          <div class="slider-blog__image">
+            <img src="img/slider-blog/2.jpg" alt="slider image">
+          </div>
+          <div class="slider-blog__item-descr">
+            <span>10-08-2021</span>
+            <a href="#">Covid-19 Is Rapidly Accelerating Digital Health Adoption.</a>
+          </div>
+        </div>
+        <div class="slider-blog__item">
+          <div class="slider-blog__image">
+            <img src="img/slider-blog/3.jpg" alt="slider image">
+          </div>
+          <div class="slider-blog__item-descr">
+            <span>10-08-2021</span>
+            <a href="#">Was our 30 Billion Dollar Investement wise on this tech?</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <a class="section-link slider-blog__link" href="#">
+          View all insights
+          <img class="section-link__img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+        </a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__content">
+          <h2 class="title footer__title">we help you to turn
+            ideas into reality.</h2>
+          <p>if your research processes have unique features, and you are looking for an individual funding solution -
+            we can help.</p>
+        </div>
+        <form class="footer-form">
+          <div><input class="footer-form__input" name="name" type="text" placeholder="Name*" required></div>
+          <div><input class="footer-form__input" name="email" type="email" placeholder="Email*" required></div>
+          <div><input class="footer-form__input" name="message" type="text" placeholder="Message*" required></div>
+          <div>
+            <label for="footer-form__btn">
+              <span class="footer-form__btn-text">get in touch</span>
+              <img class="footer-form__img" src="img/icons/arrow-right.svg" alt="arrow-right icon">
+            </label>
+            <input id="footer-form__btn" type="submit">
+          </div>
+        </form>
+      </div>
+      <div class="footer-links">
+        <div class="footer-links__social">
+          <a href="#">
+            linkedin
+          </a>
+          <a href="#">
+            reddit
+          </a>
+          <a href="#">
+            facebook
+          </a>
+          <a href="#">
+            twitter
+          </a>
+        </div>
+        <div class="footer-links__policy">
+          <a href="#">
+            privacy & policy
+          </a>
+          <a href="#">
+            cookies policy
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="top-line">
+      <div class="footer__rights">
+        all rights reserved by <a href="#">PIXIRHY</a>
+      </div>
+    </div>
+    <img class="footer__bg" src="img/footer/footer-spiral.svg" alt="spiral image">
+
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
